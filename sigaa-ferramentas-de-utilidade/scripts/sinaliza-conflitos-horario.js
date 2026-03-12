@@ -4,6 +4,7 @@ const max_days = 6;
 const max_hours = 18;
 const first_day = 2;
 const last_day = 7;
+let ativo = true;
 
 // Read and Write interface with DOM
 
@@ -187,6 +188,26 @@ class SigaaInterface {
         }
     }
 }
+
+
+// Listen for deactivation message
+browser.runtime.onMessage.addListener((message) => {
+  if (message.action === "toggle") {
+    const messages = document.querySelectorAll(".conflito");
+
+    ativo = !ativo;
+    if(ativo) {
+        for (const message of messages) {
+            message.style.visibility = "visible";
+        }
+    }
+    else {
+        for (const message of messages) {
+            message.style.visibility = "hidden";
+        }
+    }
+  }
+});
 
 
 const sigaa_interface = new SigaaInterface();
