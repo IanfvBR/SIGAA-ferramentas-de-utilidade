@@ -1,4 +1,4 @@
-<h1><a href="https://github.com/IanfvBR/SIGAA-ferramentas-de-utilidade">SIGAA - Ferramentas de Utilidade</a></h1>
+<h2><a href="https://github.com/IanfvBR/SIGAA-ferramentas-de-utilidade">link para o repositório</a></h2>
 <p>Este add-on foi criado para reunir diversas funcionalidades úteis para melhorar a experiência do usuário nos sites do sistema SIGAA.</p>
 <p>Atualmente, essas funcionalidades incluem um sinalizador de conflitos de horário para o período de matrícula e rematrícula, e um calculador de total de horas de estágio
  para quando o estudante for realizar o pré-cadastro de estágio. </p>
