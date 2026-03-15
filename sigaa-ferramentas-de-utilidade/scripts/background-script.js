@@ -7,4 +7,3 @@ browser.action.onClicked.addListener((tab) => {
         });
   });
 });
-

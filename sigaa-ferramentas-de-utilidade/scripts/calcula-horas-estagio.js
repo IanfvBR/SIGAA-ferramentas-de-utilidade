@@ -45,5 +45,5 @@ browser.runtime.onMessage.addListener((message) => {
 });
 
 
-caixa_total_horas.addEventListener("mouseenter", clicou_na_caixa);
-caixa_total_minutos.addEventListener("mouseenter", clicou_na_caixa);
+caixa_total_horas.addEventListener("pointerenter", clicou_na_caixa);
+caixa_total_minutos.addEventListener("pointerenter", clicou_na_caixa);

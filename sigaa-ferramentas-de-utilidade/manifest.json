@@ -21,7 +21,13 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "IanfvBR@github.com",
+      "id": "IanfvBR@ferramentas.utilidade",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    },
+    "gecko_android": {
+      "id": "IanfvBR@ferramentas.utilidade.android",
       "data_collection_permissions": {
         "required": ["none"]
       }
